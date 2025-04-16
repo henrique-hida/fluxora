@@ -18,7 +18,7 @@
                 $status = "Online";
                 $random_id = rand(time(), 10000000);
                 $sql2 = mysqli_query($conn,"INSERT INTO users (unique_id, fname, lname, email, password, status)
-                                                          VALUES ('{$random_id}', '{$fname}', '{$lname}', '{$email}', '{$password}', '{$status}')");
+                                                          VALUES ({$random_id}, '{$fname}', '{$lname}', '{$email}', '{$password}', '{$status}')");
                 if($sql2){
                     $sql3 = mysqli_query($conn,"SELECT * FROM users WHERE email = '{$email}'");
                     if(mysqli_num_rows($sql3) > 0){
