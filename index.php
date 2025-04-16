@@ -12,24 +12,24 @@
         <section class="form signup">
             <header>Fluxora</header>
             <form action="#">
-                <div class="error-txt">Erro!</div>
+                <div class="error-txt"></div>
                 <div class="name-details">
                     <div class="field input">
                         <label>Nome</label>
-                        <input type="text" placeholder="Nome">
+                        <input type="text" name="fname" placeholder="Nome" required>
                     </div>
                     <div class="field input">
                         <label>Sobrenome</label>
-                        <input type="text" placeholder="Sobrenome">
+                        <input type="text" name="lname" placeholder="Sobrenome" required>
                     </div>
                 </div>
                 <div class="field input">
                     <label>Email</label>
-                    <input type="text" placeholder="exemplo@gmail.com">
+                    <input type="text" name="email" placeholder="exemplo@gmail.com" required>
                 </div>
                 <div class="field input">
                     <label>Senha</label>
-                    <input type="password" placeholder="suasenha123">
+                    <input type="password" name="password" placeholder="suasenha123" required>
                     <i class="fas fa-eye"></i>
                 </div>
                 <div class="field button">
@@ -41,6 +41,7 @@
     </div>
 
     <script src="javascript/pass-show-hide.js"></script>
+    <script src="javascript/signup.js"></script>
     
 </body>
 </html>
