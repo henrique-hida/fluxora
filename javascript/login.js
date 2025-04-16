@@ -1,4 +1,4 @@
-const form = document.querySelector(".signup login"),
+const form = document.querySelector(".login form"),
 constinueBtn = form.querySelector(".button input"),
 errorText = form.querySelector(".error-txt");
 

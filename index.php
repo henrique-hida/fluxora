@@ -36,7 +36,7 @@
                     <input type="submit" value="Cadastrar">
                 </div>
             </form>
-            <div class="link">Já possui uma conta? <a href="#">Entrar</a></div>
+            <div class="link">Já possui uma conta? <a href="login.php">Entrar</a></div>
         </section>
     </div>
 
